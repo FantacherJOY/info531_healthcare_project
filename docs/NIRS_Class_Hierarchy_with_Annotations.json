@@ -1,0 +1,1009 @@
+{
+  "name": "Thing",
+  "label": "Thing",
+  "description": "",
+  "seeAlso": "",
+  "code": "",
+  "children": [
+    {
+      "name": "Indication",
+      "label": "Indication",
+      "description": "",
+      "seeAlso": "",
+      "code": "",
+      "children": [
+        {
+          "name": "Cardiovascular",
+          "label": "Cardiovascular",
+          "description": "",
+          "seeAlso": "",
+          "code": "",
+          "children": [
+            {
+              "name": "PulmonaryEdema",
+              "label": "Pulmonary Edema",
+              "description": "Pulmonary edema is a condition where fluid accumulates in the lungs, making it difficult to breathe.",
+              "seeAlso": "http://purl.bioontology.org/ontology/SNOMEDCT/19242006",
+              "code": "SNOMEDCT: 19242006"
+            },
+            {
+              "name": "Sepsis",
+              "label": "Sepsis",
+              "description": "Sepsis is a life-threatening condition that occurs when the body's immune system overreacts to an infection, leading to widespread inflammation and organ damage.",
+              "seeAlso": "http://purl.bioontology.org/ontology/SNOMEDCT/91302008",
+              "code": "SNOMEDCT: 91302008"
+            },
+            {
+              "name": "SepticShock",
+              "label": "Septic Shock",
+              "description": "Septic shock is a life-threatening condition that occurs when an infection spreads throughout the body and causes a severe drop in blood pressure.",
+              "seeAlso": "http://purl.bioontology.org/ontology/SNOMEDCT/76571007",
+              "code": "SNOMEDCT: 76571007"
+            }
+          ]
+        },
+        {
+          "name": "DisordersOfAirways",
+          "label": "DisordersOfAirways",
+          "description": "",
+          "seeAlso": "",
+          "code": "",
+          "children": [
+            {
+              "name": "AcuteCOPDExacerbation",
+              "label": "Acute Exacerbation of Chronic Obstructive Pulmonary Disease (AECOPD)",
+              "description": "AECOPD is a sudden and significant worsening of chronic obstructive pulmonary disease (COPD) symptoms.",
+              "seeAlso": "http://purl.bioontology.org/ontology/SNOMEDCT/195951007",
+              "code": "SNOMEDCT: 195951007"
+            },
+            {
+              "name": "Asthma",
+              "label": "Asthma",
+              "description": "Asthma is a chronic lung disease that causes inflammation and narrowing of the airways, leading to difficulty breathing",
+              "seeAlso": "http://purl.bioontology.org/ontology/SNOMEDCT/195967001",
+              "code": "SNOMEDCT: 195967001"
+            },
+            {
+              "name": "COPD",
+              "label": "Chronic Obstructive Pulmonary Disease",
+              "description": "COPD is a chronic inflammatory lung disease that causes obstructed airflow from the lungs, often requiring Non-Invasive Ventilation (NIV).",
+              "seeAlso": "http://purl.bioontology.org/ontology/SNOMEDCT/13645005",
+              "code": "SNOMEDCT: 13645005"
+            },
+            {
+              "name": "ObesityHypoventilationSyndrome",
+              "label": "Obesity Hypoventilation Syndrome (OHS)",
+              "description": "Obesity hypoventilation syndrome (OHS) is a breathing disorder that affects obese individuals and is characterized by chronic alveolar hypoventilation, resulting in elevated levels of carbon dioxide (CO2) in the blood.",
+              "seeAlso": "http://purl.bioontology.org/ontology/ICD9CM/278.03",
+              "code": "ICD9CM: 278.03"
+            },
+            {
+              "name": "ObstructiveSleepApnea(OSA)",
+              "label": "Obstructive Sleep Apnea (OSA)",
+              "description": "Obstructive Sleep Apnea (OSA) is a common sleep disorder characterized by repeated episodes of upper airway collapse during sleep, leading to reduced or absent breathing",
+              "seeAlso": "http://purl.bioontology.org/ontology/SNOMEDCT/78275009",
+              "code": "SNOMEDCT: 78275009"
+            }
+          ]
+        },
+        {
+          "name": "PulmonaryInfections",
+          "label": "PulmonaryInfections",
+          "description": "",
+          "seeAlso": "",
+          "code": "",
+          "children": [
+            {
+              "name": "Empyema",
+              "label": "Empyema",
+              "description": "Empyema is a condition characterized by a buildup of pus in the pleural space, the cavity between the lungs and chest wall, usually caused by an infection that spreads from the lungs.",
+              "seeAlso": "http://purl.bioontology.org/ontology/SNOMEDCT/312682007",
+              "code": "SNOMEDCT: 312682007"
+            },
+            {
+              "name": "LungAbscess",
+              "label": "Lung Abscess",
+              "description": "A lung abscess is a pus-filled cavity in the lung tissue caused by a bacterial infection, often resulting from aspiration of oral secretions or other lung infections.",
+              "seeAlso": "http://purl.bioontology.org/ontology/SNOMEDCT/73452002",
+              "code": "SNOMEDCT: 73452002"
+            },
+            {
+              "name": "Pneumonia",
+              "label": "Pneumonia",
+              "description": "Peumonia is a lung infection that causes inflammation in the air sacs of the lungs",
+              "seeAlso": "http://purl.bioontology.org/ontology/SNOMEDCT/233604007",
+              "code": "SNOMEDCT: 233604007"
+            }
+          ]
+        },
+        {
+          "name": "RespiratoryFailure",
+          "label": "RespiratoryFailure",
+          "description": "",
+          "seeAlso": "",
+          "code": "",
+          "children": [
+            {
+              "name": "AcuteLungInjury",
+              "label": "Acute Lung Injury",
+              "description": "A finding of acute onset of bilateral pulmonary infiltrates by chest radiograph and a PaO2/FiO2 of less than or equal to 300, in the absence of heart failure.",
+              "seeAlso": "http://purl.obolibrary.org/obo/NCIT_C155766",
+              "code": "NCIT: C155766"
+            },
+            {
+              "name": "AcuteRespiratoryDistress",
+              "label": "Acute Respiratory Distress Syndrome (ARDS)",
+              "description": "ARDS is a life-threatening lung condition that causes severe difficulty breathing",
+              "seeAlso": "http://purl.bioontology.org/ontology/SNOMEDCT/67782005",
+              "code": "SNOMEDCT: 67782005"
+            },
+            {
+              "name": "AcuteRespiratoryFailure",
+              "label": "Acute Respiratory Failure",
+              "description": "Acute respiratory failure (ARF) is a life-threatening condition where the lungs cannot adequately exchange oxygen and carbon dioxide, leading to low oxygen levels (hypoxemia) and/or high carbon dioxide levels (hypercapnia) in the blood.",
+              "seeAlso": "http://purl.bioontology.org/ontology/SNOMEDCT/65710008",
+              "code": "SNOMEDCT: 65710008"
+            },
+            {
+              "name": "MetabolicAcidosis",
+              "label": "Metabolic Acidosis",
+              "description": "Metabolic acidosis is a condition in which the body accumulates too much acid in the blood, leading to a decrease in pH (acidity)",
+              "seeAlso": "",
+              "code": "SNOMEDCT: 59455009"
+            },
+            {
+              "name": "RespiratoryAcidosis",
+              "label": "Respiratory Acidosis",
+              "description": "Respiratory acidosis is a condition where the blood becomes too acidic due to a buildup of carbon dioxide in the lungs",
+              "seeAlso": "http://purl.bioontology.org/ontology/SNOMEDCT/12326000",
+              "code": "SNOMEDCT: 12326000"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Outcome",
+      "label": "Outcome",
+      "description": "",
+      "seeAlso": "",
+      "code": "",
+      "children": [
+        {
+          "name": "AvoidingIntubation",
+          "label": "Avoiding Intubation",
+          "description": "Avoiding Intubation refers to the successful management of respiratory failure without the need for endotracheal intubation and invasive mechanical ventilation.",
+          "seeAlso": "",
+          "code": "OMOP CDM 'Observation' Table"
+        },
+        {
+          "name": "IntubationRequired",
+          "label": "Intubation Required",
+          "description": "Intubation is a procedure that involves inserting a tube into a patient's airway to help them breathe. It's required when a patient can't breathe on their own, or if their airway is blocked or damaged",
+          "seeAlso": "https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&code=C52668&ns=ncit",
+          "code": "NCI Thesaurus Code:  C178949"
+        },
+        {
+          "name": "ReductionHypercapnia",
+          "label": "Reduction Hypercapnia",
+          "description": "To reduce hypercapnia (excessive carbon dioxide in the blood), treatment focuses on addressing the underlying cause and improving ventilation, often with non-invasive or invasive respiratory support like BiPAP, CPAP, or mechanical ventilation.",
+          "seeAlso": "http://purl.bioontology.org/ontology/SNOMEDCT/29596007",
+          "code": "SNOMEDCT: 29596007"
+        },
+        {
+          "name": "WeaningFailure",
+          "label": "Weaning Failure",
+          "description": "Weaning failure occurs when a patient can't pass a breathing test or needs to be reintubated after being taken off a ventilator",
+          "seeAlso": "http://purl.bioontology.org/ontology/MEDDRA/10066829",
+          "code": "MEDDRA: 10066829"
+        },
+        {
+          "name": "WeaningSuccessful",
+          "label": "Successful Weaning",
+          "description": "Successful weaning from mechanical ventilation, or other forms of therapy, means a patient can breathe independently without support for a certain period after extubation or decannulation, without requiring re-intubation or re-introduction of the device.",
+          "seeAlso": "http://purl.bioontology.org/ontology/SNOMEDCT/404998008",
+          "code": "SNOMEDCT: 404998008"
+        }
+      ]
+    },
+    {
+      "name": "Patient",
+      "label": "Patient",
+      "description": "",
+      "seeAlso": "",
+      "code": "",
+      "children": [
+        {
+          "name": "ClinicalObservation",
+          "label": "ClinicalObservation",
+          "description": "",
+          "seeAlso": "",
+          "code": "",
+          "children": [
+            {
+              "name": "PFRatio",
+              "label": "PaO2/FiO2 Ratio",
+              "description": "The P/F ratio, or PaO2/FiO2 ratio, is a measure of lung function used to assess the severity of hypoxemia and is calculated by dividing the partial pressure of arterial oxygen (PaO2) by the fraction of inspired oxygen (FiO2)",
+              "seeAlso": "http://purl.jp/bio/4/id/201406062517222943",
+              "code": "IOBC: 201406062517222943"
+            },
+            {
+              "name": "SFRatio",
+              "label": "SpO2/FiO2 Ratio",
+              "description": "The S/F ratio, or SpO2/FiO2 ratio, is calculated by dividing the oxygen saturation measured by pulse oximetry (SpO2) by the fraction of inspired oxygen (FiO2).",
+              "seeAlso": "https://www.pinsonandtang.com/resources/the-s-f-ratio-explained/",
+              "code": "No Existant Code/Ontology Found"
+            }
+          ]
+        },
+        {
+          "name": "Comorbidity",
+          "label": "Comorbidity",
+          "description": "",
+          "seeAlso": "",
+          "code": "",
+          "children": [
+            {
+              "name": "Cancer",
+              "label": "Cancer",
+              "description": "",
+              "seeAlso": "",
+              "code": "",
+              "children": [
+                {
+                  "name": "HematologicMalignancy",
+                  "label": "Hematologic Malignancy",
+                  "description": "Hematologic malignancy is a type of cancer that originates in the blood-forming tissues, like bone marrow, or in the cells of the lymphatic system",
+                  "seeAlso": "http://purl.obolibrary.org/obo/DOID_2531",
+                  "code": "DOID - 2531"
+                },
+                {
+                  "name": "LungCancer",
+                  "label": "Lung Cancer",
+                  "description": "Lung cancer is a disease in which malignant (cancer) cells form in the tissues of the lung",
+                  "seeAlso": "http://purl.bioontology.org/ontology/LNC/LA15687-9",
+                  "code": "LNC: LA15687-9"
+                },
+                {
+                  "name": "MetastaticLungCancer",
+                  "label": "Metastatic Lung Cancer",
+                  "description": "Metastatic lung cancer, also known as stage IV lung cancer, signifies that the cancer has spread from the lungs to other parts of the body",
+                  "seeAlso": "http://purl.bioontology.org/ontology/LNC/LA28289-9",
+                  "code": "LNC: LA28289-9"
+                },
+                {
+                  "name": "ThoracicCancer",
+                  "label": "Thoracic Cancer",
+                  "description": "Thoracic cancer refers to cancers that develop in the chest cavity, primarily affecting the lungs, esophagus, heart, and other structures within the chest",
+                  "seeAlso": "http://purl.obolibrary.org/obo/DOID_5093",
+                  "code": "DOID - 5093"
+                }
+              ]
+            },
+            {
+              "name": "CardiovascularDisorders",
+              "label": "CardiovascularDisorders",
+              "description": "",
+              "seeAlso": "",
+              "code": "",
+              "children": [
+                {
+                  "name": "CongestiveHeartFailure",
+                  "label": "Congestive Heart Failure (CHF)",
+                  "description": "Congestive heart failure (CHF), also known as heart failure, is a condition where the heart muscle is weakened and cannot pump blood effectively",
+                  "seeAlso": "http://purl.bioontology.org/ontology/SNOMEDCT/4234300",
+                  "code": "SNOMEDCT: 42343007",
+                  "children": [
+                    {
+                      "name": "Biventricular",
+                      "label": "Biventricular",
+                      "description": "Biventricular refers to both ventricles of the heart, which are the two lower chambers that pump blood out of the heart.",
+                      "seeAlso": "http://purl.bioontology.org/ontology/ICD10CM/I50.82",
+                      "code": "ICD10CM:I50.82"
+                    },
+                    {
+                      "name": "CHFDiastolic",
+                      "label": "Diastolic Heart Failure (CHF)",
+                      "description": "Diastolic heart failure (CHF) is a condition where the heart muscles become stiff and cannot relax properly between heartbeats",
+                      "seeAlso": "http://purl.bioontology.org/ontology/ICD10CM/I50.3",
+                      "code": "ICD10CM: I50.3"
+                    },
+                    {
+                      "name": "CHFLeftSided",
+                      "label": "Left-Sided Congestive Heart Failure (CHF)",
+                      "description": "Left-sided CHF is a condition where the left ventricle of the heart cannot pump blood effectively, leading to fluid buildup in the lungs.",
+                      "seeAlso": "http://purl.bioontology.org/ontology/ICD10CM/I50.1",
+                      "code": "ICD10CM: I50.1"
+                    },
+                    {
+                      "name": "CHFRightSided",
+                      "label": "Right-sided Congestive Heart Failure (CHF)",
+                      "description": "Right-sided Congestive Heart Failure (CHF) occurs when the right side of the heart struggles to pump blood effectively, leading to blood buildup in the body's major organs and potentially causing fluid accumulation in the abdomen and limbs",
+                      "seeAlso": "http://purl.bioontology.org/ontology/ICD10CM/I50.81",
+                      "code": "ICD10CM: I50.81"
+                    },
+                    {
+                      "name": "CHFSystolic",
+                      "label": "Systolic Heart Failure (CHF)",
+                      "description": "Systolic heart failure (CHF) is a condition where the heart's left ventricle cannot pump blood effectively",
+                      "seeAlso": "http://purl.bioontology.org/ontology/ICD10CM/I50.2",
+                      "code": "ICD10CM: I50.2"
+                    },
+                    {
+                      "name": "CorPulmonale",
+                      "label": "Cor Pulmonale",
+                      "description": "Cor pulmonale is a condition in which the right side of the heart fails due to chronic lung diseases",
+                      "seeAlso": "http://purl.bioontology.org/ontology/SNOMEDCT/83291003",
+                      "code": "SNOMEDCT: 83291003"
+                    }
+                  ]
+                },
+                {
+                  "name": "HypertensionHeartFailure",
+                  "label": "Hypertension and Heart Failure",
+                  "description": "Hypertension (high blood pressure) is a major risk factor for heart failure. When hypertension is not properly controlled, it can damage the heart muscle and lead to heart failure over time.",
+                  "seeAlso": "(http://purl.bioontology.org/ontology/SNOMEDCT/84114007)",
+                  "code": "SNOMEDCT: 84114007"
+                },
+                {
+                  "name": "ValvularRegurgitation",
+                  "label": "Valvular Regurgitation",
+                  "description": "Valvular regurgitation is a condition where one or more of the heart's valves does not close properly, allowing blood to flow backward (regurgitate) into the previous chamber",
+                  "seeAlso": "http://purl.bioontology.org/ontology/SNOMEDCT/10337008",
+                  "code": "SNOMEDCT: 10337008"
+                },
+                {
+                  "name": "ValvularStenosis",
+                  "label": "Valvular Stenosis",
+                  "description": "Valvular stenosis is a condition where the valves in the heart become narrowed or thickened, preventing them from opening fully",
+                  "seeAlso": "https://ncit.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&version=24.11d&ns=ncit&code=C62433&key=n819119070&b=1&n=0&vse=1",
+                  "code": "NCI Thesaurus Code:  C62433"
+                }
+              ]
+            },
+            {
+              "name": "Endocrine&MetabolicDisorders",
+              "label": "Endocrine&MetabolicDisorders",
+              "description": "",
+              "seeAlso": "",
+              "code": "",
+              "children": [
+                {
+                  "name": "DiabetesMellitus",
+                  "label": "Diabetes Mellitus",
+                  "description": "Diabetes mellitus, commonly known as diabetes, is a chronic metabolic disease characterized by high blood sugar (glucose) levels",
+                  "seeAlso": "http://purl.bioontology.org/ontology/SNOMEDCT/7321100",
+                  "code": "SNOMEDCT: 7321100",
+                  "children": [
+                    {
+                      "name": "DiabetesMellitusType1",
+                      "label": "Diabetes Mellitus Type 1",
+                      "description": "Diabetes Mellitus Type 1 (T1DM) is an autoimmune disease characterized by insulin deficiency due to the destruction of pancreatic beta cells.",
+                      "seeAlso": "http://purl.bioontology.org/ontology/ICD10CM/E10",
+                      "code": "ICD10CM: E10"
+                    },
+                    {
+                      "name": "DiabetesMellitusType2",
+                      "label": "Diabetes mellitus type 1",
+                      "description": "Diabetes Mellitus Type 2 (T2DM) is a chronic metabolic disorder characterized by insulin resistance and relative insulin deficiency.",
+                      "seeAlso": "http://purl.bioontology.org/ontology/ICD10CM/E11",
+                      "code": "ICD10CM: E11"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "ImmunologicDisorders",
+              "label": "ImmunologicDisorders",
+              "description": "",
+              "seeAlso": "",
+              "code": "",
+              "children": [
+                {
+                  "name": "AIDS",
+                  "label": "Acquired immunodeficiency syndrome (AIDS)",
+                  "description": "",
+                  "seeAlso": "http://purl.bioontology.org/ontology/SNOMEDCT/62479008",
+                  "code": "SNOMEDCT - 62479008"
+                },
+                {
+                  "name": "Immunosuppression",
+                  "label": "Immunosuppression",
+                  "description": "Immunosuppression is a reduction of the activation or efficacy of the immune system. Some portions of the immune system itself have immunosuppressive effects on other parts of the immune system, and immunosuppression may occur as an adverse reaction to treatment of other conditions.",
+                  "seeAlso": "http://purl.bioontology.org/ontology/SNOMEDCT/38013005",
+                  "code": "SNOMEDCT - 38013005"
+                },
+                {
+                  "name": "Sarcoidosis",
+                  "label": "Sarcoidosis",
+                  "description": "Sarcoidosis is a disease characterized by inflammation, causing granulomas (small clumps of inflamed tissue) to form in various organs, most commonly the lungs and lymph nodes",
+                  "seeAlso": "http://purl.bioontology.org/ontology/SNOMEDCT/31541009",
+                  "code": "SNOMEDCT - 31541009"
+                },
+                {
+                  "name": "SystemicLupusErythematosus(SLE)",
+                  "label": "Systemic Lupus Erythematosus (SLE)",
+                  "description": "Systemic lupus erythematosus (SLE), often just called lupus, is a chronic autoimmune disease where the body's immune system mistakenly attacks its own healthy tissues and organs",
+                  "seeAlso": "http://purl.bioontology.org/ontology/SNOMEDCT/55464009",
+                  "code": "SNOMEDCT - 55464009"
+                },
+                {
+                  "name": "Vasculitis",
+                  "label": "Vasculitis",
+                  "description": "Vasculitis is a group of diseases characterized by inflammation of the blood vessels (arteries, veins, and capillaries)",
+                  "seeAlso": "http://purl.bioontology.org/ontology/SNOMEDCT/31996006",
+                  "code": "SNOMEDCT - 31996006"
+                }
+              ]
+            },
+            {
+              "name": "NeuromuscularDisorders",
+              "label": "NeuromuscularDisorders",
+              "description": "",
+              "seeAlso": "",
+              "code": "",
+              "children": [
+                {
+                  "name": "MotorNeuropathy",
+                  "label": "MotorNeuropathy",
+                  "description": "",
+                  "seeAlso": "",
+                  "code": "",
+                  "children": [
+                    {
+                      "name": "ALS",
+                      "label": "Amyotrophic Lateral Sclerosis (ALS)",
+                      "description": "Amyotrophic lateral sclerosis (ALS), commonly known as Lou Gehrig's disease, is a progressive neurodegenerative disease that affects the motor neurons in the brain and spinal cord",
+                      "seeAlso": "http://purl.bioontology.org/ontology/SNOMEDCT/86044005",
+                      "code": "SNOMEDCT: 86044005"
+                    },
+                    {
+                      "name": "Guillain-BarreSyndrome",
+                      "label": "Guillain-Barré Syndrome (GBS)",
+                      "description": "Guillain-Barré syndrome (GBS) is a rare autoimmune disorder that affects the peripheral nervous system, the network of nerves that connect the brain and spinal cord to the rest of the body.",
+                      "seeAlso": "http://purl.bioontology.org/ontology/ICD10/G61.0",
+                      "code": "ICD10: G61.0"
+                    },
+                    {
+                      "name": "MultipleSclerosis",
+                      "label": "Multiple Sclerosis (MS)",
+                      "description": "Multiple sclerosis (MS) is a chronic, autoimmune disease that affects the central nervous system (brain and spinal cord).",
+                      "seeAlso": "http://purl.bioontology.org/ontology/SNOMEDCT/24700007",
+                      "code": "SNOMEDCT: 24700007"
+                    },
+                    {
+                      "name": "Neuropathy",
+                      "label": "Neuropathy",
+                      "description": "Neuropathy, often called peripheral neuropathy, refers to nerve damage, typically causing pain, numbness, and weakness, especially in the hands and feet, but can also affect other body areas and functions.",
+                      "seeAlso": "http://purl.bioontology.org/ontology/SNOMEDCT/386033004",
+                      "code": "SNOMEDCT: 386033004"
+                    },
+                    {
+                      "name": "Post-PolioSyndrome",
+                      "label": "Post-Polio Syndrome (PPS)",
+                      "description": "Post-polio syndrome (PPS) is a condition that can develop in people who have had polio years after their initial infection",
+                      "seeAlso": "http://purl.bioontology.org/ontology/MEDDRA/10036239",
+                      "code": "MEDDRA: 10036239"
+                    }
+                  ]
+                },
+                {
+                  "name": "Myopathy",
+                  "label": "Myopathy",
+                  "description": "",
+                  "seeAlso": "",
+                  "code": "",
+                  "children": [
+                    {
+                      "name": "ChronicAlcoholicMyopathy",
+                      "label": "Chronic Alcoholic Myopathy",
+                      "description": "Chronic alcoholic myopathy is a condition characterized by muscle weakness, atrophy, and pain that develops as a result of prolonged and excessive alcohol consumption.",
+                      "seeAlso": "http://purl.bioontology.org/ontology/SNOMEDCT/838376007",
+                      "code": "SNOMEDCT: 838376007"
+                    },
+                    {
+                      "name": "MalignantHyperthermia",
+                      "label": "Malignant hyperthermia (MH)",
+                      "description": "Malignant hyperthermia (MH) is a rare, inherited disorder that causes a severe reaction to certain anesthetic drugs used during surgery or other medical procedures.",
+                      "seeAlso": "http://purl.bioontology.org/ontology/SNOMEDCT/405501007",
+                      "code": "SNOMEDCT: 405501007"
+                    },
+                    {
+                      "name": "MuscularDystrophy",
+                      "label": "Muscular dystrophy (MD)",
+                      "description": "Muscular dystrophy (MD) is a group of inherited disorders characterized by progressive muscle weakness and degeneration, with symptoms varying depending on the specific type.",
+                      "seeAlso": "http://purl.bioontology.org/ontology/SNOMEDCT/7329700",
+                      "code": "SNOMEDCT: 73297009"
+                    },
+                    {
+                      "name": "MyopathyCritical-Illness",
+                      "label": "Critical illness myopathy (CIM)",
+                      "description": "Critical illness myopathy (CIM) is a type of muscle weakness that develops in critically ill patients, typically those requiring intensive care unit (ICU) admission.",
+                      "seeAlso": "http://purl.bioontology.org/ontology/SNOMEDCT/443819006",
+                      "code": "SNOMEDCT: 443819006"
+                    },
+                    {
+                      "name": "Rhabdomyolysis",
+                      "label": "Rhabdomyolysis",
+                      "description": "Rhabdomyolysis is a serious condition where damaged muscle tissue releases its contents, including myoglobin, into the bloodstream, potentially causing kidney damage and other complications.",
+                      "seeAlso": "http://purl.bioontology.org/ontology/SNOMEDCT/240131006",
+                      "code": "SNOMEDCT: 240131006"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "PulmonaryDisorders",
+              "label": "PulmonaryDisorders",
+              "description": "",
+              "seeAlso": "",
+              "code": "",
+              "children": [
+                {
+                  "name": "AcuteRespiratoryConditions",
+                  "label": "AcuteRespiratoryConditions",
+                  "description": "",
+                  "seeAlso": "",
+                  "code": "",
+                  "children": [
+                    {
+                      "name": "AsthmaBronchospasm",
+                      "label": "Asthma with Bronchospasm",
+                      "description": "Asthma with bronchospasm results in reversible airway obstruction and can be severe in acute cases, sometimes requiring NIV.",
+                      "seeAlso": "http://purl.bioontology.org/ontology/SNOMEDCT/195967001",
+                      "code": "SNOMEDCT: 195967001"
+                    },
+                    {
+                      "name": "AsthmaMild",
+                      "label": "Mild Asthma",
+                      "description": "Mild asthma presents with occasional symptoms, usually triggered by allergens or exercise, and rarely requires hospital care.",
+                      "seeAlso": "http://purl.bioontology.org/ontology/SNOMEDCT/370218001",
+                      "code": "SNOMEDCT: 370218001"
+                    },
+                    {
+                      "name": "PleuralEffusionCHF",
+                      "label": "Pleural Effusion in Congestive Heart Failure (CHF)",
+                      "description": "Pleural effusion is an abnormal accumulation of fluid in the pleural space, the area between the lungs and chest wall. It is a common complication of CHF.",
+                      "seeAlso": "http://purl.bioontology.org/ontology/SNOMEDCT/90727007",
+                      "code": "SNOMEDCT: 90727007"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "RenalDisorders",
+              "label": "RenalDisorders",
+              "description": "",
+              "seeAlso": "",
+              "code": "",
+              "children": [
+                {
+                  "name": "DiabetesInsipidus",
+                  "label": "Diabetes insipidus (DI)",
+                  "description": "Diabetes insipidus (DI) is a disorder that affects the body's ability to regulate water balance, leading to excessive thirst and urination",
+                  "seeAlso": "http://purl.bioontology.org/ontology/ICD10CM/E23.2",
+                  "code": "ICD10CM: E23.2"
+                },
+                {
+                  "name": "KidneyFailure",
+                  "label": "KidneyFailure",
+                  "description": "",
+                  "seeAlso": "",
+                  "code": "",
+                  "children": [
+                    {
+                      "name": "AcuteKidneyInjury",
+                      "label": "Acute Kidney Injury (AKI)",
+                      "description": "Acute kidney injury (AKI) is a sudden and significant decline in kidney function that occurs over a short period (hours to days). It is also known as acute renal failure (ARF).",
+                      "seeAlso": "http://purl.bioontology.org/ontology/SNOMEDCT/14669001",
+                      "code": "SNOMEDCT: 14669001"
+                    },
+                    {
+                      "name": "ChronicKidneyDisease",
+                      "label": "Chronic Kidney Disease (CKD)",
+                      "description": "Chronic kidney disease (CKD) is a long-term condition where the kidneys gradually lose their ability to filter waste products and excess fluid from the blood.",
+                      "seeAlso": "http://purl.bioontology.org/ontology/SNOMEDCT/709044004",
+                      "code": "SNOMEDCT: 709044004"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Demographics",
+          "label": "Demographics",
+          "description": "",
+          "seeAlso": "",
+          "code": "",
+          "children": [
+            {
+              "name": "Age",
+              "label": "Age",
+              "description": "",
+              "seeAlso": "",
+              "code": ""
+            },
+            {
+              "name": "BMI",
+              "label": "Body Mass Index (BMI)",
+              "description": "Body Mass Index (BMI) is a measure of body weight relative to height",
+              "seeAlso": "http://purl.bioontology.org/ontology/LNC/39156-5",
+              "code": "LNC: 39156-5"
+            },
+            {
+              "name": "Sex",
+              "label": "Sex",
+              "description": "",
+              "seeAlso": "",
+              "code": ""
+            },
+            {
+              "name": "SmokingStatus",
+              "label": "Smoking Status",
+              "description": "Smoking status is a category that describes a person's relationship to smoking cigarettes.",
+              "seeAlso": "http://purl.bioontology.org/ontology/SNOMEDCT/308512009",
+              "code": "SNOMEDCT: 308512009"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Therapy",
+      "label": "Therapy",
+      "description": "",
+      "seeAlso": "",
+      "code": "",
+      "children": [
+        {
+          "name": "Device",
+          "label": "Device",
+          "description": "",
+          "seeAlso": "",
+          "code": "",
+          "children": [
+            {
+              "name": "HighFlowOxygenSystem",
+              "label": "HighFlowOxygenSystem",
+              "description": "",
+              "seeAlso": "",
+              "code": "",
+              "children": [
+                {
+                  "name": "HFNC",
+                  "label": "High Flow Nasal Cannula (HFNC)",
+                  "description": "High-flow nasal cannula (HFNC) therapy is a non-invasive respiratory support technique that delivers heated, humidified oxygen at high flow rates (up to 60 L/min) via nasal prongs, used for patients with respiratory distress or failure",
+                  "seeAlso": "http://purl.bioontology.org/ontology/SNOMEDCT/426854004",
+                  "code": "SNOMEDCT: 426854004"
+                },
+                {
+                  "name": "Optiflow",
+                  "label": "Optiflow",
+                  "description": "Optiflow is a nasal cannula that provides respiratory support by delivering heated, humidified air and oxygen",
+                  "seeAlso": "",
+                  "code": "OMOP CDM 'Device ' Table"
+                },
+                {
+                  "name": "Oximizer",
+                  "label": "Oxymizer",
+                  "description": "The Oxymizer is a type of oxygen reservoir nasal cannula, a non-invasive device that delivers oxygen more efficiently than a standard nasal cannula by storing oxygen during exhalation and releasing it during inhalation, potentially requiring lower oxygen flow rates.",
+                  "seeAlso": "",
+                  "code": "OMOP CDM 'Device ' Table"
+                },
+                {
+                  "name": "Vapotherm",
+                  "label": "Vapotherm",
+                  "description": "Vapotherm a medical device that provides mask-free respiratory support through a high-velocity nasal cannula, delivering warmed and humidified gas to patients experiencing respiratory distress.",
+                  "seeAlso": "https://vapotherm.com/",
+                  "code": "OMOP CDM 'Device ' Table"
+                }
+              ]
+            },
+            {
+              "name": "PAPMachine",
+              "label": "Positive Airway Pressure (PAP) Machine",
+              "description": "",
+              "seeAlso": "",
+              "code": "",
+              "children": [
+                {
+                  "name": "BiPAP",
+                  "label": "Bilevel Positive Airway Pressure (BiPAP)",
+                  "description": "Bilevel positive airway pressure (BiPAP) is a form of non-invasive ventilation that uses two different pressure levels: a higher pressure for inhalation (IPAP) and a lower pressure for exhalation (EPAP), delivered through a mask, to assist breathing",
+                  "seeAlso": "http://purl.bioontology.org/ontology/MEDDRA/10064530",
+                  "code": "MEDDRA: 10064530"
+                },
+                {
+                  "name": "CPAP",
+                  "label": "Continuous Positive Airway Pressure (CPAP)",
+                  "description": "CPAP is a type of non-invasive ventilation (NIV) used to maintain a constant pressure in the airways",
+                  "seeAlso": "http://purl.bioontology.org/ontology/HCPCS/E0601",
+                  "code": "HCPCS: E0601"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Parameters",
+          "label": "Parameters",
+          "description": "",
+          "seeAlso": "",
+          "code": "",
+          "children": [
+            {
+              "name": "BloodGasParameters",
+              "label": "BloodGasParameters",
+              "description": "",
+              "seeAlso": "",
+              "code": "",
+              "children": [
+                {
+                  "name": "PaCO2",
+                  "label": "Partial Pressure of Carbon Dioxide (PaCO2)",
+                  "description": "PaCO2, or the partial pressure of carbon dioxide, is a measurement of the amount of carbon dioxide in the arterial blood, which is crucial for assessing respiratory function and acid-base balance",
+                  "seeAlso": "http://purl.bioontology.org/ontology/SNOMEDCT/25284008",
+                  "code": "SNOMEDCT - 25284008"
+                },
+                {
+                  "name": "TotalCO2",
+                  "label": "Total CO2",
+                  "description": "A total CO2 blood test, also known as a bicarbonate test, measures the amount of carbon dioxide in the blood",
+                  "seeAlso": "http://sbmi.uth.tmc.edu/ontology/ochv#C0860709",
+                  "code": "OCHV - C0860709"
+                },
+                {
+                  "name": "pH",
+                  "label": "pH or \"potential of Hydrogen\"",
+                  "description": "pH data indicates the acidity or alkalinity of the blood, with a normal range of 7.35 to 7.45",
+                  "seeAlso": "http://purl.obolibrary.org/obo/CMO_0000379",
+                  "code": "CMO - 0000379"
+                }
+              ]
+            },
+            {
+              "name": "OxygenSettings",
+              "label": "OxygenSettings",
+              "description": "",
+              "seeAlso": "",
+              "code": "",
+              "children": [
+                {
+                  "name": "FiO2",
+                  "label": "Fraction of inspired oxygen (FiO2)",
+                  "description": "FiO2, or fraction of inspired oxygen, refers to the percentage or concentration of oxygen a person inhales, and it's a crucial factor in respiratory care, particularly when supplemental oxygen is needed.",
+                  "seeAlso": "http://purl.bioontology.org/ontology/LNC/LP286756-4",
+                  "code": "LNC: LP286756-4"
+                },
+                {
+                  "name": "OxygenFlowRate",
+                  "label": "Oxygen Flow Rate",
+                  "description": "Oxygen flow rate, measured in liters per minute (LPM), determines the amount of oxygen delivered to a patient and is crucial for effective oxygen therapy.",
+                  "seeAlso": "http://purl.bioontology.org/ontology/SNOMEDCT/42708100",
+                  "code": "SNOMEDCT: 42708100"
+                }
+              ]
+            },
+            {
+              "name": "PressureSettings",
+              "label": "PressureSettings",
+              "description": "",
+              "seeAlso": "",
+              "code": "",
+              "children": [
+                {
+                  "name": "EPAP",
+                  "label": "Expiratory Positive Airway Pressure (EPAP)",
+                  "description": "EPAP is a treatment for obstructive sleep apnea (OSA) that involves creating positive pressure during exhalation to keep the airway open, often using a device with valves that fit into the nostrils.",
+                  "seeAlso": "http://purl.bioontology.org/ontology/SNOMEDCT/699113009",
+                  "code": "SNOMEDCT: 699113009"
+                },
+                {
+                  "name": "IPAP",
+                  "label": "Inspiratory Positive Airway Pressure (IPAP)",
+                  "description": "A key component of bi-level positive airway pressure (BiPAP) therapy, IPAP is the higher pressure setting used by the device during inhalation.",
+                  "seeAlso": "http://purl.bioontology.org/ontology/RCTV2/8726.00",
+                  "code": "RCTV2: 8726.00"
+                },
+                {
+                  "name": "PEEP",
+                  "label": "Positive End Expiratory Pressure (PEEP)",
+                  "description": "Positive end-expiratory pressure (PEEP) is a mechanical ventilation setting that maintains a positive pressure in the airways at the end of exhalation, preventing alveolar collapse and improving oxygenation",
+                  "seeAlso": "http://purl.bioontology.org/ontology/SNOMEDCT/250854009",
+                  "code": "SNOMEDCT: 250854009"
+                },
+                {
+                  "name": "PressureSupport",
+                  "label": "Pressure Support Ventilation (PSV)",
+                  "description": "In pressure support ventilation (PSV), the ventilator provides pressure support during inspiration, with settings typically ranging from 5 to 20 cm H2O, depending on the patient's needs and the goal of the ventilation.",
+                  "seeAlso": "http://purl.bioontology.org/ontology/LNC/LP73175-9",
+                  "code": "LNC: LP73175-9"
+                }
+              ]
+            },
+            {
+              "name": "RespiratoryRate",
+              "label": "RespiratoryRate",
+              "description": "",
+              "seeAlso": "",
+              "code": "",
+              "children": [
+                {
+                  "name": "SetRespiratoryRate",
+                  "label": "Respiratory Rate",
+                  "description": "Respiratory rate (RR) refers to the number of breaths a person takes per minute",
+                  "seeAlso": "http://purl.bioontology.org/ontology/SNOMEDCT/86290005",
+                  "code": "SNOMEDCT: 86290005"
+                },
+                {
+                  "name": "SpontaneousRespiratoryRate",
+                  "label": "Spontaneous Respiratory Rate",
+                  "description": "Spontaneous respiratory rate refers to the breathing rate determined by the patient's own effort, typically measured in breaths per minute, and is considered normal for adults between 12 and 20 breaths per minute.",
+                  "seeAlso": "http://purl.bioontology.org/ontology/SNOMEDCT/271625008",
+                  "code": "SNOMEDCT: 271625008"
+                }
+              ]
+            },
+            {
+              "name": "VolumeSettings",
+              "label": "VolumeSettings",
+              "description": "",
+              "seeAlso": "",
+              "code": "",
+              "children": [
+                {
+                  "name": "InspiratoryFlowRate",
+                  "label": "Inspiratory Flow Rate",
+                  "description": "Inspiratory flow rate is the speed at which air is inhaled. It can refer to the flow of air during mechanical ventilation or the flow rate of a dry powder inhaler.",
+                  "seeAlso": "http://purl.bioontology.org/ontology/LNC/LP101893-8",
+                  "code": "LNC: LP101893-8"
+                },
+                {
+                  "name": "InspiratoryPressureSet",
+                  "label": "Peak Inspiratory Pressure (PIP)",
+                  "description": "Inspiratory pressure settings on a ventilator, particularly peak inspiratory pressure (PIP) and plateau pressure, are crucial for effective and safe mechanical ventilation, requiring careful monitoring and adjustments based on patient needs and lung mechanics.",
+                  "seeAlso": "http://purl.bioontology.org/ontology/SNOMEDCT/417071008",
+                  "code": "SNOMEDCT: 417071008"
+                },
+                {
+                  "name": "TidalVolume",
+                  "label": "Tidal Volume (TV)",
+                  "description": "Tidal volume (TV) refers to the amount of air inhaled and exhaled during a normal breath, typically around 500 milliliters in a healthy adult",
+                  "seeAlso": "http://purl.bioontology.org/ontology/LNC/LP188693-8",
+                  "code": "LNC: LP188693-8"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "TherapyType",
+          "label": "TherapyType",
+          "description": "SNOMED CT: 277132007 (Non-invasive ventilation therapy)\nNCIT: C15351 (Respiratory Therapy)",
+          "seeAlso": "",
+          "code": "",
+          "children": [
+            {
+              "name": "BiPAP",
+              "label": "Bilevel Positive Airway Pressure (BiPAP)",
+              "description": "Bilevel positive airway pressure (BiPAP) is a form of non-invasive ventilation that uses two different pressure levels: a higher pressure for inhalation (IPAP) and a lower pressure for exhalation (EPAP), delivered through a mask, to assist breathing",
+              "seeAlso": "http://purl.bioontology.org/ontology/MEDDRA/10064530",
+              "code": "MEDDRA: 10064530"
+            },
+            {
+              "name": "CPAP",
+              "label": "Continuous Positive Airway Pressure (CPAP)",
+              "description": "CPAP is a type of non-invasive ventilation (NIV) used to maintain a constant pressure in the airways",
+              "seeAlso": "http://purl.bioontology.org/ontology/HCPCS/E0601",
+              "code": "HCPCS: E0601"
+            },
+            {
+              "name": "HFNC",
+              "label": "High Flow Nasal Cannula (HFNC)",
+              "description": "High-flow nasal cannula (HFNC) therapy is a non-invasive respiratory support technique that delivers heated, humidified oxygen at high flow rates (up to 60 L/min) via nasal prongs, used for patients with respiratory distress or failure",
+              "seeAlso": "http://purl.bioontology.org/ontology/SNOMEDCT/426854004",
+              "code": "SNOMEDCT: 426854004"
+            },
+            {
+              "name": "HighFlowMask",
+              "label": "High Flow Mask Oxygen Therapy",
+              "description": "High-flow oxygen therapy, delivered via a HFNC device, is a non-invasive respiratory support that uses heated and humidified oxygen at high flow rates (up to 60 liters per minute) to improve oxygenation and reduce the work of breathing.",
+              "seeAlso": "http://purl.bioontology.org/ontology/MEDDRA/10084914",
+              "code": "MEDDRA: 10084914"
+            }
+          ]
+        },
+        {
+          "name": "Timing",
+          "label": "Timing",
+          "description": "",
+          "seeAlso": "",
+          "code": "",
+          "children": [
+            {
+              "name": "Duration",
+              "label": "Duration",
+              "description": "",
+              "seeAlso": "",
+              "code": "",
+              "children": [
+                {
+                  "name": "CumulativeTime",
+                  "label": "CumulativeTime",
+                  "description": "",
+                  "seeAlso": "",
+                  "code": ""
+                },
+                {
+                  "name": "TherapyDuration",
+                  "label": "Therapy Duration",
+                  "description": "Duration of therapy refers to the total length of time a patient is treated, measured in days, weeks, months, or years, for a specific condition or problem",
+                  "seeAlso": "http://purl.bioontology.org/ontology/SNOMEDCT/261773006",
+                  "code": "SNOMEDCT: 261773006"
+                }
+              ]
+            },
+            {
+              "name": "IntervalTime",
+              "label": "IntervalTime",
+              "description": "",
+              "seeAlso": "",
+              "code": "",
+              "children": [
+                {
+                  "name": "TherapyPhase",
+                  "label": "Therapy Phase",
+                  "description": "Therapy Phaseencompasses the period during which the patient is actively receiving NIV support, including the initial setup, ongoing adjustments, and monitoring for effectiveness and complications.",
+                  "seeAlso": "http://purl.bioontology.org/ontology/SNOMEDCT/261774000",
+                  "code": "SNOMEDCT: 261774000"
+                },
+                {
+                  "name": "WeaningPhase",
+                  "label": "Weaning Phase",
+                  "description": "WeaningPhase refers to the gradual reduction or discontinuation of a treatment or support, such as mechanical ventilation, medication, or a specific therapy, as a patient's condition improves and they become more independent",
+                  "seeAlso": "http://purl.bioontology.org/ontology/SNOMEDCT/1144585003",
+                  "code": "SNOMEDCT: 1144585003"
+                }
+              ]
+            },
+            {
+              "name": "TimeEvent",
+              "label": "TimeEvent",
+              "description": "",
+              "seeAlso": "",
+              "code": "",
+              "children": [
+                {
+                  "name": "InitiationTime",
+                  "label": "Initiation Time",
+                  "description": "Initiation Time refers to the time taken to start NIV therapy",
+                  "seeAlso": "http://purl.bioontology.org/ontology/LNC/MTHU046569",
+                  "code": "LNC: MTHU046569"
+                },
+                {
+                  "name": "PauseTime",
+                  "label": "PauseTime",
+                  "description": "Pause Time; PauseTime refers to the period between the end of inspiration and the beginning of expiration, during which airflow ceases",
+                  "seeAlso": "http://purl.bioontology.org/ontology/SNOMEDCT/250821007",
+                  "code": "SNOMEDCT: 250821007"
+                },
+                {
+                  "name": "TerminationTime",
+                  "label": "Termination Time",
+                  "description": "Termination Time refers to the time taken to stop the therapy",
+                  "seeAlso": "http://purl.bioontology.org/ontology/SNOMEDCT/397898000",
+                  "code": "SNOMEDCT: 397898000"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
