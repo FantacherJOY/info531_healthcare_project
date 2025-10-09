@@ -11,8 +11,10 @@
 ---
 
 <a id="bundle-card-a"></a>
+## Bundle Card A — Assess, Prevent, and Manage Pain
+
 <details>
-<summary><strong>Bundle Card A - Assess, Prevent, and Manage Pain</strong></summary>
+  <summary><strong>Click to expand / collapse details</strong></summary>
 
 ### Card Overview
 
