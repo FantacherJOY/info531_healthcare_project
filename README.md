@@ -12,7 +12,7 @@
 
 <a id="bundle-card-a"></a>
 <details>
-<summary>## <strong>Bundle Card A - Assess, Prevent, and Manage Pain</strong></summary>
+<summary><strong>Bundle Card A - Assess, Prevent, and Manage Pain</strong></summary>
 
 ### Card Overview
 
