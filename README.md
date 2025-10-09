@@ -52,27 +52,27 @@
 
 <a id="bundle-card-b-part-i"></a>
 <details>
-<summary><strong>Bundle Card B — Part I: Spontaneous Awakening Trials (SAT)</strong> <sub><a href="#top">↑ Back to Top</a></sub></summary>
+<summary><strong>Bundle Card B - Part I: Spontaneous Awakening Trials (SAT)</strong></summary>
 
 ### Card Overview
-
-Part I focuses on daily interruption of continuous sedatives to reassess neurological status and readiness for extubation. The intent is to reduce unnecessary sedation exposure, shorten ventilation duration, and identify the lowest effective sedative dose.
+- **Card Definition:** B: SAT - Spontaneous Awakening Trials.
+- **Purpose:** To assess the ability to breathe without assistance by periodically stopping sedative drugs for mechanically ventilated patients.
 
 ### Assessment Instruments
-
-Clinicians pause continuous sedatives while ensuring safety screens are met, then observe arousal, command following, and tolerance. Sedation may be resumed at a reduced dose if the patient fails the trial or if predefined safety criteria are violated.
+- Assess whether the patient has received sedatives or opioid medications.
+- Observe whether the sedative medium is continuous (IV-infusion) or intermittent (Bolus).
 
 ### Compliance Checks
+- Periodically stop or pause sedatives for mechanically intubated patients to help weaning from ventilation.
+- Record if patients were successfully weaned from mechanical ventilation during the trial.
 
-Document the SAT start and stop times, tolerance, adverse events, and the resumed dose if applicable. Link SAT documentation to paired SBT workflow whenever feasible to maintain bundle integrity.
-
-### Suggested Vocabulary Mapping (fill site-specific IDs as needed)
-
-| Clinical Concept | Concept Values | Standardized Vocabulary: Code / Concept ID | CDM Table |
-|---|---|---|---|
-| SAT Performed | Yes / No with reason | SNOMED CT (procedure concept; site-specific Concept ID) | Procedure |
-| Sedation Dose After SAT | New maintenance dose or discontinued | RxNorm (agent-specific), OMOP | Drug Exposure |
-| SAT Safety Screen | Met / Not met with reason | LOINC / OMOP | Observation |
+### Mapping to Standard Vocabularies
+| Clinical Concept | Concept Values | Standardized Vocabulary: Code,<br>Concept ID | CDM Table |
+|------------------|----------------|-------------------------------------------|-----------|
+| Sedative | Midazolam, Propofol, Lorazepam,<br>Dexmedetomidine, etc. | SNOMED: 372614000 | Drug |
+| Sedative Route | • Continuously Infused<br>• Intermittent/Bolus Scheduled<br>• PRN ("as needed") | SNOMED: 72641008 | Procedure |
+| SAT Assessment | Sedative Medication Stopped or<br>Paused | SNOMED: 241713008 | Procedure |
+| SAT Failure | • Anxiety, agitation, or pain<br>• Respiratory rate > 35/min<br>• Oxygen saturation < 88%<br>• Respiratory distress<br>• Acute cardiac arrhythmia | SNOMED | Observation |
 
 </details>
 
@@ -80,7 +80,7 @@ Document the SAT start and stop times, tolerance, adverse events, and the resume
 
 <a id="bundle-card-b-part-ii"></a>
 <details>
-<summary><strong>Bundle Card B — Part II: Spontaneous Breathing Trials (SBT)</strong> <sub><a href="#top">↑ Back to Top</a></sub></summary>
+<summary><strong>Bundle Card B - Part II: Spontaneous Breathing Trials (SBT)</strong> <sub><a href="#top">↑ Back to Top</a></sub></summary>
 
 ### Card Overview
 - **Card Definition:** B: SBT - Spontaneous Breathing Trials.
@@ -97,11 +97,12 @@ Document the SAT start and stop times, tolerance, adverse events, and the resume
 ### Mapping to Standard Vocabularies
 | Clinical Concept | Concept Values | Standardized Vocabulary: Code,<br>Concept ID | CDM Table |
 |------------------|----------------|-------------------------------------------|-----------|
-| Ventilation Modes | • PSV: Pressure Support Ventilation<br>• SPONT: Spontaneous<br>• CPAP: Continuous Positive Airway Pressure<br>• SIMV: Synchronized Intermittent Mandatory Ventilation<br>• APRV: Airway Pressure Release Ventilation | SNOMED:<br>1258885005,<br>ID: 37158404 | Procedure |
+| Ventilation Modes | • PSV: Pressure Support Ventilation<br>• SPONT: Spontaneous<br>• CPAP: Continuous Positive Airway Pressure<br>• SIMV: Synchronized Intermittent Mandatory Ventilation<br>• APRV: Airway Pressure Release Ventilation | SNOMED: 1258885005,<br>ID: 37158404 | Procedure |
 | SBT Started | Yes or No | LOINC: 93203-8,<br>ID: 1001774 | Observation |
 | SBT Stopped | • RR > 35 for >5 min<br>• Accessory Muscle Use<br>• SpO₂ <90% for >2 min<br>• BP >180 or <90<br>• HR >140<br>• Arrhythmia | LOINC | Observation |
 | SBT Completion | Yes or No | LOINC: 87542-7,<br>ID: 36305814 | Observation |
 | SBT Deferred | • Unable to perform RSBI<br>• Chronic vent dependent patient<br>• Pending procedure<br>• RSBI > 105 | LOINC | Observation |
+|*RSBI: Rapid shallow breathing index*|
 
 </details>
 
@@ -109,7 +110,7 @@ Document the SAT start and stop times, tolerance, adverse events, and the resume
 
 <a id="bundle-card-c"></a>
 <details>
-<summary><strong>Bundle Card C — Choice of Analgesia and Sedation (RASS)</strong> <sub><a href="#top">↑ Back to Top</a></sub></summary>
+<summary><strong>Bundle Card C - Choice of Analgesia and Sedation (RASS)</strong> <sub><a href="#top">↑ Back to Top</a></sub></summary>
 
 ### Card Overview
 - **Card Definition:** C - Choice of Analgesia and Sedation levels
@@ -199,7 +200,7 @@ Document the SAT start and stop times, tolerance, adverse events, and the resume
 
 <a id="bundle-card-f"></a>
 <details>
-<summary><strong>Bundle Card F — Family Engagement and Empowerment</strong> <sub><a href="#top">↑ Back to Top</a></sub></summary>
+<summary><strong>Bundle Card F - Family Engagement and Empowerment</strong> <sub><a href="#top">↑ Back to Top</a></sub></summary>
 
 ### Card Overview
 - **Card Definition:** F - Family Engagement and Empowerment
