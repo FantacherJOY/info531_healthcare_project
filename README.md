@@ -85,26 +85,25 @@ Document the SAT start and stop times, tolerance, adverse events, and the resume
 <summary><strong>Bundle Card B — Part II: Spontaneous Breathing Trials (SBT)</strong> <sub><a href="#top">↑ Back to Top</a></sub></summary>
 
 ### Card Overview
-
-Part II evaluates the patient’s ability to breathe without assistance by temporarily reducing or removing ventilatory support. This reassessment guides liberation from the ventilator when readiness criteria are satisfied.
+- **Card Definition:** B: SBT - Spontaneous Breathing Trials.
+- **Purpose:** To assess the ability to breathe without assistance by temporarily reducing or removing mechanical ventilatory support.
 
 ### Assessment Instruments
-
-Readiness is confirmed using local criteria (e.g., oxygen saturation ≥ 88%, FiO₂ ≤ 0.50, and PEEP < 7.5 cmH₂O). The trial proceeds with minimal support while clinicians adjust ventilator settings such as PEEP and FiO₂ to maintain safety. The ventilatory mode in use—PSV, SPONT, CPAP, SIMV, or APRV—should be captured for analysis and quality reporting.
+- Assess whether the patients are on mechanical ventilation modes, such as PSV, CPAP, or SPONT ventilation support.
+- Start the SBT trial if the patient meets the criteria of Oxygen saturation ≥ 88%, FiO₂ ≤50% and PEEP ≤7.5 cmH₂O. Record the results if started or not.
+- Reduce mechanical support, monitor the patient's ability to sustain independent breathing, and adjust ventilator settings such as PEEP and FiO₂ as needed to perform the SBT.
 
 ### Compliance Checks
-
-The SBT start, stop, and outcome are recorded, including reasons for failure or deferral. When the trial is not initiated, the rationale (such as RSBI > 105 or procedure pending) must be documented.
+- Record the results if a patient completed the trial or documented the reason for the failure if different.
 
 ### Mapping to Standard Vocabularies
-
-| Clinical Concept | Concept Values | Standardized Vocabulary: Code / Concept ID | CDM Table |
-|---|---|---|---|
-| Ventilation Modes | PSV; SPONT; CPAP; SIMV; APRV | SNOMED CT (ventilation-mode concepts; site-specific Concept IDs) | Procedure |
-| SBT Started | Yes / No | LOINC 93203-8 (Concept ID: 1001774) | Observation |
-| SBT Stopped (Failure Criteria) | RR ≥ 35 for > 5 min; accessory muscle use; SpO₂ < 90% for > 2 min; BP > 180 or < 90; HR > 140; arrhythmia | LOINC (site-selected code) | Observation |
-| SBT Completion | Yes / No | LOINC 87542-7 (Concept ID: 365305814) | Observation |
-| SBT Deferred | Unable to perform RSBI; chronic vent dependence; pending procedure; RSBI > 105 | LOINC (site-selected code) | Observation |
+| Clinical Concept | Concept Values | Standardized Vocabulary: Code,<br>Concept ID | CDM Table |
+|------------------|----------------|-------------------------------------------|-----------|
+| Ventilation Modes | • PSV: Pressure Support Ventilation<br>• SPONT: Spontaneous<br>• CPAP: Continuous Positive Airway Pressure<br>• SIMV: Synchronized Intermittent Mandatory Ventilation<br>• APRV: Airway Pressure Release Ventilation | SNOMED:<br>1258885005,<br>ID: 37158404 | Procedure |
+| SBT Started | Yes or No | LOINC: 93203-8,<br>ID: 1001774 | Observation |
+| SBT Stopped | • RR > 35 for >5 min<br>• Accessory Muscle Use<br>• SpO₂ <90% for >2 min<br>• BP >180 or <90<br>• HR >140<br>• Arrhythmia | LOINC | Observation |
+| SBT Completion | Yes or No | LOINC: 87542-7,<br>ID: 36305814 | Observation |
+| SBT Deferred | • Unable to perform RSBI<br>• Chronic vent dependent patient<br>• Pending procedure<br>• RSBI > 105 | LOINC | Observation |
 
 </details>
 
@@ -115,27 +114,51 @@ The SBT start, stop, and outcome are recorded, including reasons for failure or 
 <summary><strong>Bundle Card C — Choice of Analgesia and Sedation (RASS)</strong> <sub><a href="#top">↑ Back to Top</a></sub></summary>
 
 ### Card Overview
+- **Card Definition:** C - Choice of Analgesia and Sedation levels
+- **Purpose:** To select appropriate sedation and analgesia levels
 
-Component C optimizes analgesia and titrates sedation to the lightest level compatible with patient safety. Sedation targets rely on the Richmond Agitation–Sedation Scale (RASS), a 10-point instrument ranging from +4 (combative) to −5 (unarousable).
+### Assessment Instruments
+- Establish individual sedation level targets based on Richmond Agitation-Sedation Scale (RASS), a 10-point scale.
 
 ### Compliance Checks
+- Perform Arousal Assessments: Conduct arousal assessments at least 6 times within 24 hours to monitor compliance with the sedation targets.
+- Continuously evaluate and adjust sedation and analgesia such as Fentanyl and Dexmedetomidine
+- Record the results of each assessment, including those outside the sedation target
 
-Arousal assessments should occur at least six times in 24 hours to evaluate compliance with the individualized sedation target. Clinicians adjust sedatives and analgesics, such as fentanyl or dexmedetomidine, to maintain targets and document out-of-target results with corrective actions.
-
-### Mapping to Standard Vocabulary
-
-| Clinical Concept | Concept Values | Standardized Vocabulary: Code / Concept ID | CDM Table |
-|---|---|---|---|
-| RASS Score | +4 (Combative) to −5 (Unarousable) | OMOP Extension (range concepts; site Concept IDs) | Measurement |
-| Goal RASS Score | Typical targets: 0 (alert/calm) to −2 (light sedation) | OMOP Extension (goal/target concepts) | Observation |
+### Mapping to Standard Vocabularies
+| Clinical Concept | Concept Values | Standardized Vocabulary: Code,<br>Concept ID | CDM Table |
+|------------------|----------------|-------------------------------------------|-----------|
+| RASS Score | Ranges: +4 (Combative) to -5 (Unarousable) | OMOP Extension:<br>OMOP504285[4/-5(4/-63)],<br>ID: 7050[06/-15] | Measurement |
+| Goal RASS Score | Ranges: 0 (Alert and Calm) to -2 (Light sedation). | OMOP Extension:<br>OMOP5042958[-60],<br>ID: 7050[09/-11] | Observation |
 | Sedative Medications | See list below | RxNorm | Drug |
 | Analgesic Medications | See list below | RxNorm | Drug |
 
-#### Reference Medication Lists
+#### Sedatives
+- Alprazolam
+- Amobarbital sodium
+- Ativan
+- Clonazepam
+- Dexmedetomidine
+- Diazepam
+- Ketamine
+- Lorazepam
+- Meprobamate
+- Midazolam
+- Pentobarbital
+- Phenobarbital
+- Propofol
 
-| Sedatives | Analgesics |
-|---|---|
-| Alprazolam; Amobarbital; Lorazepam; Midazolam; Dexmedetomidine; Diazepam; Ketamine; Propofol; Pentobarbital; Phenobarbital; Ativan (lorazepam) | Fentanyl; Morphine; Hydromorphone; Oxycodone; Mod-oxycodone; Methadone; Meperidine; Ketamine; Codeine phosphate; Codeine sulfate |
+#### Analgesics
+- Codeine Phosphate
+- Codeine sulfate
+- Fentanyl
+- Ketamine
+- Meperidine
+- Hydromorphone
+- Methadone
+- Mod-oxy-codone
+- Morphine
+- Oxycodone
 
 </details>
 
