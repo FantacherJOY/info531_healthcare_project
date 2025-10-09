@@ -150,27 +150,24 @@ Document the SAT start and stop times, tolerance, adverse events, and the resume
 <summary><strong>Bundle Card D — Delirium: Assess, Prevent, and Manage (CAM-ICU)</strong> <sub><a href="#top">↑ Back to Top</a></sub></summary>
 
 ### Card Overview
-
-Component D addresses delirium by screening changes in consciousness, attention, and mentation using the CAM-ICU. The focus is early detection and documentation to prompt prevention and management strategies.
+- **Card Definition:** D: Delirium: Assess, Prevent, and Manage
+- **Purpose:** To assess delirium status from changes in consciousness, inattention, and mental status
 
 ### Assessment Instruments
-
-The CAM-ICU algorithm combines mental status change, inattention, altered level of consciousness, and disorganized thinking. Results determine delirium status and guide subsequent actions.
+- Administer the Confusion Assessment Method for the ICU (CAM-ICU)?
 
 ### Compliance Checks
-
-Delirium assessments are performed at least twice daily, with explicit recording of positive, negative, or “unable to assess” determinations.
+- Conduct delirium assessments at least 2 times within 24 hours to monitor compliance.
 
 ### Mapping to Standard Vocabularies
-
-| Clinical Concept | Concept Values | Standardized Vocabulary: Code / Concept ID | CDM Table |
-|---|---|---|---|
-| CAM-ICU RASS LOC | Yes / No | LOINC 80288-4 | Observation |
-| CAM-ICU Mental Status Change | Yes / No | LOINC 54632-5 | Observation |
-| CAM-ICU Inattention | Yes (≥ 3 errors) · No (< 3 errors) · UTA · Language barrier · Pre-existing dementia | LOINC 106402-1 | Observation |
-| CAM-ICU Altered LOC | Yes / No | LOINC 95815-7 | Observation |
-| CAM-ICU Disorganized Thinking | Yes / No / UTA | LOINC 95814-0 | Observation |
-| Delirium Assessment Status | Positive · Negative · UTA | SNOMED CT 733870009 | Procedure |
+| Clinical Concept | Concept Values | Standardized Vocabulary: Code,<br>Concept ID | CDM Table |
+|------------------|----------------|-------------------------------------------|-----------|
+| CAM-ICU RASS LOC | Yes or No | LOINC: 80288-4 | Observation |
+| CAM-ICU mental status Change | Yes or No | LOINC: 54632-5 | Observation |
+| CAM-ICU Inattention | • Yes (3 or more errors)<br>• No (less than 3 errors)<br>• Unable to Assess (UTA)<br>• Language Barrier<br>• Preexisting Advanced Dementia | LOINC: 106402-1 | Observation |
+| CAM-ICU Altered LOC | Yes or No | LOINC: 95815-7 | Observation |
+| CAM-ICU Disorganized thinking | Yes or No or UTA | LOINC: 95814-0 | Observation |
+| Delirium Assessment Status | • Positive<br>• Negative<br>• UTA | SNOMED: 733870009 | Procedure |
 
 </details>
 
@@ -181,21 +178,22 @@ Delirium assessments are performed at least twice daily, with explicit recording
 <summary><strong>Bundle Card E — Early Mobility and Exercise</strong> <sub><a href="#top">↑ Back to Top</a></sub></summary>
 
 ### Card Overview
-
-This component encourages early, progressive mobilization to limit ICU-acquired weakness and accelerate recovery. After an initial mobility evaluation, patients advance through higher levels as tolerated, with meticulous documentation of achievements and barriers.
+- **Card Definition:** E - Early Mobility and Exercise
+- **Purpose:** To encourage early physical activity to prevent muscle weakness and fasten the overall recovery.
 
 ### Compliance Checks
-
-Clinicians record each activity, the highest level achieved in a session, and any challenges (for example, hemodynamic instability or pain). Repeated assessments help tailor goals and justify progression.
+- Evaluate the patient's mobility capabilities using exercises such as "Sit to Stand Ability" or "Transfer Ability".
+- Document the results of each mobility or exercise
+- After the initial evaluation, perform assessments for higher levels of exercise to further determine the patient's mobility range.
+- Continuously observe and record the highest level of exercise or mobilization the patient achieves, noting any challenges or successes encountered.
 
 ### Mapping to Standard Vocabulary
-
-| Clinical Concept | Concept Values | Standardized Vocabulary: Code / Concept ID | CDM Table |
-|---|---|---|---|
-| Range of Motion (ROM) Status | Passive · Active | SNOMED CT 228528009 | Procedure |
-| Sit-to-Stand Ability | min-A (minimal assist) · mod-A (moderate assist) · max-A (maximal assist) · contact guarding · independent · supervision | LOINC 89393-3 | Observation |
-| Activity / Mobility | Lift to chair/bed · Turning in bed · Chair transfer · Stand ≥ 1 minute · Walk ≥ 10/25/250+ feet | SNOMED CT 36830005 | Observation |
-| Transfer Ability | Stand step · Stand pivot · Contact guarding · Supervision · Squat pivot · Slide board · Independent | LOINC 83185-9 | Observation |
+| Clinical Concept | Concept Values | Standardized Vocabulary: Code | CDM Table |
+|------------------|----------------|-------------------------------|-----------|
+| Range of Motion (ROM) Status | • Passive<br>• Active<br>• min A (Minimal Assistance) | SNOMED: 228528009 | Procedure |
+| Sit to Stand Ability | • mod A (Moderate Assistance)<br>• max A (Maximum Assistance)<br>• Contact guarding<br>• Independent<br>• Supervision | LOINC: 89393-3 | Observation |
+| Activity / Mobility | • Lift to chair/bed<br>• Turning in bed<br>• Chair: Transfer to chair/bed<br>• Stand: >/= One minute<br>• Walk: 10+/25+/250+ Feet<br>• Stand step<br>• Stand pivot | SNOMED: 363803005 | Observation |
+| Transfer Ability | • Contact guarding<br>• Supervision<br>• Squat pivot<br>• Slide board<br>• Independent | LOINC: 83185-9 | Observation |
 
 </details>
 
@@ -206,19 +204,19 @@ Clinicians record each activity, the highest level achieved in a session, and an
 <summary><strong>Bundle Card F — Family Engagement and Empowerment</strong> <sub><a href="#top">↑ Back to Top</a></sub></summary>
 
 ### Card Overview
-
-The F component promotes meaningful family participation in the care plan. Teams document visits and communications, facilitate meetings, and ensure decision-makers understand the bundle and the patient’s status.
+- **Card Definition:** F - Family Engagement and Empowerment
+- **Purpose:** To involve and engage families in the care process
 
 ### Compliance Checks
-
-Every instance of family contact is recorded, including visits, calls, and discussions with nurses or physicians. Family meetings are scheduled as needed, and documentation indicates whether the family has been informed about care plans and decisions.
+- Record each instance of family visit, call, or communications with healthcare providers, including nurses and doctors. Hold family meetings to discuss the patient's care plan, ensuring consistent family involvement.
+- Ensure that family decision-makers are informed about the ICU Liberation Bundle and the patient's care status.
+- Allow and track family or friends participation in care rounds, noting their contribution to decision-making processes.
 
 ### Mapping to Standard Vocabularies
-
-| Clinical Idea | Concept Values | Standardized Vocabulary: Code / Concept ID | CDM Table |
-|---|---|---|---|
-| Family Communication | Family visited; spoke with RN; family called; spoke with physician; family conference | SNOMED CT (site-selected concepts) | Observation |
-| Family Meeting | Yes / No | SNOMED CT 711070007 | Observation |
-| Family Informed | Yes · No · Not applicable | SNOMED CT 406141002 | Observation |
+| Clinical Concept | Concept Values | Standardized Vocabulary: Code | CDM Table |
+|------------------|----------------|-------------------------------|-----------|
+| Family Communication | • Family Visited<br>• Family Talked to Registered Nurse<br>• Family Called<br>• Family Talked to Doctor<br>• Family Conference | SNOMED: 14461000202103 | Observation |
+| Family Meeting | Yes or NO | SNOMED: 711070007 | Observation |
+| Family Informed | • Yes<br>• No<br>• Not Applicable | SNOMED: 406141002 | Observation |
 
 </details>
