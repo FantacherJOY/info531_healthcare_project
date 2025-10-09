@@ -16,8 +16,6 @@
 <details>
 <summary><strong>Bundle Card A — Assess, Prevent, and Manage Pain</strong> <sub><a href="#top">↑ Back to Top</a></sub></summary>
 
-# Table A.1. Bundle Card for Component A in the Liberation Bundle
-
 ### Card Overview
 
 - **Card Definition:** A - Assessment, Prevention, and Management of Pain.
