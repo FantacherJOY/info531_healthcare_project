@@ -7,7 +7,7 @@
 
 ---
 
-<a id="bundle-card-a"></a>
+
 <details>
 <summary><strong>Bundle Card A — Assess, Prevent, and Manage Pain</strong>  <sub><a href="#bundle-card-a">#Bundle Card A</a></sub></summary>
 
