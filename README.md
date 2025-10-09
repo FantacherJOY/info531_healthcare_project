@@ -17,7 +17,7 @@
 
 ## Mapping to Standard Vocabularies: CPOT
 
-| Clinical Concept | Concept Values | Standardized Vocabulary: Code, Concept ID | CDM Table |
+| Clinical Concept | Concept Values | Standardized Vocabulary: Code,<br>Concept ID | CDM Table |
 |------------------|----------------|-------------------------------------------|-----------|
 | CPOT: Muscle Tension Score | 0: Relaxed<br>1: Tense, Rigid<br>2: Very tense or rigid | OMOP Extension:<br>OMOP5214828,<br>ID: 722052 | Measurement |
 | CPOT: Vocalization Score | 0: No sound<br>1: Sighing, moaning<br>2: Crying out, groaning | OMOP Extension:<br>OMOP5214835,<br>ID: 722060 | Measurement |
