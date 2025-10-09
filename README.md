@@ -133,33 +133,21 @@ Document the SAT start and stop times, tolerance, adverse events, and the resume
 | Sedative Medications | See list below | RxNorm | Drug |
 | Analgesic Medications | See list below | RxNorm | Drug |
 
-#### Sedatives
-- Alprazolam
-- Amobarbital sodium
-- Ativan
-- Clonazepam
-- Dexmedetomidine
-- Diazepam
-- Ketamine
-- Lorazepam
-- Meprobamate
-- Midazolam
-- Pentobarbital
-- Phenobarbital
-- Propofol
-
-#### Analgesics
-- Codeine Phosphate
-- Codeine sulfate
-- Fentanyl
-- Ketamine
-- Meperidine
-- Hydromorphone
-- Methadone
-- Mod-oxy-codone
-- Morphine
-- Oxycodone
-
+| Sedatives | Analgesics |
+|-----------|------------|
+| - Alprazolam | - Codeine Phosphate |
+| - Amobarbital sodium | - Codeine sulfate |
+| - Ativan | - Fentanyl |
+| - Clonazepam | - Ketamine |
+| - Dexmedetomidine | - Meperidine |
+| - Diazepam | - Hydromorphone |
+| - Ketamine | - Methadone |
+| - Lorazepam | - Mod-oxy-codone |
+| - Meprobamate | - Morphine |
+| - Midazolam | - Oxycodone |
+| - Pentobarbital |  |
+| - Phenobarbital |  |
+| - Propofol |  |
 </details>
 
 ---
