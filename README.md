@@ -160,12 +160,12 @@ Document the SAT start and stop times, tolerance, adverse events, and the resume
 ### Mapping to Standard Vocabularies
 | Clinical Concept | Concept Values | Standardized Vocabulary: Code,<br>Concept ID | CDM Table |
 |------------------|----------------|-------------------------------------------|-----------|
-| CAM-ICU RASS LOC | Yes or No | LOINC: 80288-4 | Observation |
-| CAM-ICU mental status Change | Yes or No | LOINC: 54632-5 | Observation |
-| CAM-ICU Inattention | • Yes (3 or more errors)<br>• No (less than 3 errors)<br>• Unable to Assess (UTA)<br>• Language Barrier<br>• Preexisting Advanced Dementia | LOINC: 106402-1 | Observation |
-| CAM-ICU Altered LOC | Yes or No | LOINC: 95815-7 | Observation |
-| CAM-ICU Disorganized thinking | Yes or No or UTA | LOINC: 95814-0 | Observation |
-| Delirium Assessment Status | • Positive<br>• Negative<br>• UTA | SNOMED: 733870009 | Procedure |
+| CAM-ICU RASS LOC | Yes or No | LOINC: 95857-9,<br>ID: 36031363 | Observation |
+| CAM-ICU mental status Change | Yes or No | LOINC: 54632-5,<br>ID: 40757763 | Observation |
+| CAM-ICU Inattention | • Yes (3 or more errors)<br>• No (less than 3 errors)<br>• Unable to Assess (UTA)<br>• Language Barrier<br>• Preexisting Advanced Dementia | LOINC: 106402-1,<br>ID: 1092114 | Observation |
+| CAM-ICU Altered LOC | Yes or No | LOINC: 95815-7,<br>ID: 36031661 | Observation |
+| CAM-ICU Disorganized thinking | Yes or No or UTA | LOINC: 95814-0,<br>ID: 36031539 | Observation |
+| Delirium Assessment Status | • Positive<br>• Negative<br>• UTA | SNOMED: 733870009,<br>ID: 37116854 | Procedure |
 
 </details>
 
@@ -186,12 +186,12 @@ Document the SAT start and stop times, tolerance, adverse events, and the resume
 - Continuously observe and record the highest level of exercise or mobilization the patient achieves, noting any challenges or successes encountered.
 
 ### Mapping to Standard Vocabulary
-| Clinical Concept | Concept Values | Standardized Vocabulary: Code | CDM Table |
+| Clinical Concept | Concept Values | Standardized Vocabulary: Code,<br>Concept ID | CDM Table |
 |------------------|----------------|-------------------------------|-----------|
-| Range of Motion (ROM) Status | • Passive<br>• Active<br>• min A (Minimal Assistance) | SNOMED: 228528009 | Procedure |
-| Sit to Stand Ability | • mod A (Moderate Assistance)<br>• max A (Maximum Assistance)<br>• Contact guarding<br>• Independent<br>• Supervision | LOINC: 89393-3 | Observation |
-| Activity / Mobility | • Lift to chair/bed<br>• Turning in bed<br>• Chair: Transfer to chair/bed<br>• Stand: >/= One minute<br>• Walk: 10+/25+/250+ Feet<br>• Stand step<br>• Stand pivot | SNOMED: 363803005 | Observation |
-| Transfer Ability | • Contact guarding<br>• Supervision<br>• Squat pivot<br>• Slide board<br>• Independent | LOINC: 83185-9 | Observation |
+| Range of Motion (ROM) Status | • Passive<br>• Active<br>• min A (Minimal Assistance) | SNOMED: 228528009,<br>ID: 4036092 | Procedure |
+| Sit to Stand Ability | • mod A (Moderate Assistance)<br>• max A (Maximum Assistance)<br>• Contact guarding<br>• Independent<br>• Supervision | LOINC: 89393-3,<br>ID: 36306060 | Observation |
+| Activity / Mobility | • Lift to chair/bed<br>• Turning in bed<br>• Chair: Transfer to chair/bed<br>• Stand: >/= One minute<br>• Walk: 10+/25+/250+ Feet<br>• Stand step<br>• Stand pivot | SNOMED: 363803005,<br>ID: 4178501 | Observation |
+| Transfer Ability | • Contact guarding<br>• Supervision<br>• Squat pivot<br>• Slide board<br>• Independent | LOINC: 83185-9,<br>ID: 42529379 | Observation |
 
 </details>
 
@@ -211,10 +211,10 @@ Document the SAT start and stop times, tolerance, adverse events, and the resume
 - Allow and track family or friends participation in care rounds, noting their contribution to decision-making processes.
 
 ### Mapping to Standard Vocabularies
-| Clinical Concept | Concept Values | Standardized Vocabulary: Code | CDM Table |
+| Clinical Concept | Concept Values | Standardized Vocabulary: Code,<br>Concept ID | CDM Table |
 |------------------|----------------|-------------------------------|-----------|
-| Family Communication | • Family Visited<br>• Family Talked to Registered Nurse<br>• Family Called<br>• Family Talked to Doctor<br>• Family Conference | SNOMED: 14461000202103 | Observation |
-| Family Meeting | Yes or NO | SNOMED: 711070007 | Observation |
-| Family Informed | • Yes<br>• No<br>• Not Applicable | SNOMED: 406141002 | Observation |
+| Family Communication | • Family Visited<br>• Family Talked to Registered Nurse<br>• Family Called<br>• Family Talked to Doctor<br>• Family Conference | SNOMED: 14461000202103,<br>ID: 1450126 | Observation |
+| Family Meeting | Yes or NO | SNOMED: 711070007,<br>ID: 46272666 | Observation |
+| Family Informed | • Yes<br>• No<br>• Not Applicable | SNOMED: 406141002,<br>ID: 4247377 | Observation |
 
 </details>
