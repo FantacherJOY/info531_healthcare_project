@@ -102,7 +102,7 @@
 | SBT Stopped | • RR > 35 for >5 min<br>• Accessory Muscle Use<br>• SpO₂ <90% for >2 min<br>• BP >180 or <90<br>• HR >140<br>• Arrhythmia | LOINC | Observation |
 | SBT Completion | Yes or No | LOINC: 87542-7,<br>ID: 36305814 | Observation |
 | SBT Deferred | • Unable to perform RSBI<br>• Chronic vent dependent patient<br>• Pending procedure<br>• RSBI > 105 | LOINC | Observation |
-|*RSBI: Rapid shallow breathing index*|
+*RSBI: Rapid shallow breathing index*
 
 </details>
 
