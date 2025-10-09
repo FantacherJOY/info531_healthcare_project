@@ -78,9 +78,9 @@
 
 ---
 
-<a id="bundle-card-b-part-ii"></a>
+<h2 id="bundle-card-b-part-ii"></h2>
 <details>
-<summary><strong>Bundle Card B - Part II: Spontaneous Breathing Trials (SBT)</strong> <sub><a href="#top">↑ Back to Top</a></sub></summary>
+<summary><strong>Bundle Card B - Part II: Spontaneous Breathing Trials (SBT)</strong></summary>
 
 ### Card Overview
 - **Card Definition:** B: SBT - Spontaneous Breathing Trials.
@@ -110,7 +110,7 @@
 
 <a id="bundle-card-c"></a>
 <details>
-<summary><strong>Bundle Card C - Choice of Analgesia and Sedation (RASS)</strong> <sub><a href="#top">↑ Back to Top</a></sub></summary>
+<summary><strong>Bundle Card C - Choice of Analgesia and Sedation (RASS)</strong></summary>
 
 ### Card Overview
 - **Card Definition:** C - Choice of Analgesia and Sedation levels
@@ -146,7 +146,7 @@
 
 <a id="bundle-card-d"></a>
 <details>
-<summary><strong>Bundle Card D - Delirium: Assess, Prevent, and Manage (CAM-ICU)</strong> <sub><a href="#top">↑ Back to Top</a></sub></summary>
+<summary><strong>Bundle Card D - Delirium: Assess, Prevent, and Manage (CAM-ICU)</strong></summary>
 
 ### Card Overview
 - **Card Definition:** D: Delirium: Assess, Prevent, and Manage
@@ -174,7 +174,7 @@
 
 <a id="bundle-card-e"></a>
 <details>
-<summary><strong>Bundle Card E - Early Mobility and Exercise</strong> <sub><a href="#top">↑ Back to Top</a></sub></summary>
+<summary><strong>Bundle Card E - Early Mobility and Exercise</strong></summary>
 
 ### Card Overview
 - **Card Definition:** E - Early Mobility and Exercise
@@ -200,7 +200,7 @@
 
 <a id="bundle-card-f"></a>
 <details>
-<summary><strong>Bundle Card F - Family Engagement and Empowerment</strong> <sub><a href="#top">↑ Back to Top</a></sub></summary>
+<summary><strong>Bundle Card F - Family Engagement and Empowerment</strong></summary>
 
 ### Card Overview
 - **Card Definition:** F - Family Engagement and Empowerment
