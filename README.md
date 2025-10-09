@@ -206,7 +206,8 @@ Document the SAT start and stop times, tolerance, adverse events, and the resume
 - **Purpose:** To involve and engage families in the care process
 
 ### Compliance Checks
-- Record each instance of family visit, call, or communications with healthcare providers, including nurses and doctors. Hold family meetings to discuss the patient's care plan, ensuring consistent family involvement.
+- Record each instance of family visit, call, or communications with healthcare providers, including nurses and doctors.
+- Hold family meetings to discuss the patient's care plan, ensuring consistent family involvement.
 - Ensure that family decision-makers are informed about the ICU Liberation Bundle and the patient's care status.
 - Allow and track family or friends participation in care rounds, noting their contribution to decision-making processes.
 
