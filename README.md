@@ -16,34 +16,37 @@
 <details>
 <summary><strong>Bundle Card A — Assess, Prevent, and Manage Pain</strong> <sub><a href="#top">↑ Back to Top</a></sub></summary>
 
-### Card Overview
+## Card Overview
 
-The A component targets assessment, prevention, and management of pain. The immediate goal is to observe and quantify a patient’s pain level, assign a defensible pain score, and document clinically meaningful assessments that can guide timely interventions.
+- **Card Definition:** A - Assessment, Prevention, and Management of Pain.
+- **Purpose:** To observe the pain level, assign the pain score, and document significant pain assessment.
 
-### Assessment Instruments
+## Assessment Instruments
 
-The Critical-Care Pain Observation Tool (CPOT) evaluates four behavioral domains—vocalization, body movements, facial expression, and muscle tension—each scored from 0 to 2, producing a total score that reflects pain severity. When appropriate, alternative instruments such as the Numeric Pain Rating Scale (NRS) and the Behavioral Pain Scale (BPS) may be used to complement or substitute CPOT.
+- **Critical Care Pain Observation Tool (CPOT)** is four-item scale - vocalization, body movements, facial expression, and muscle tension - each scored from 0 to 2.
+- **Alternative pain assessment tools:** Numeric Pain Rating Scale (NRS), and Behavioral Pain Scale (BPS)
 
-### Compliance Checks
+## Compliance Checks
 
-Significant pain should be interpreted as CPOT greater than 2, BPS greater than 5, or NRS greater than 3. Pain assessments are expected to occur at least six times within a 24-hour window so that adherence to the bundle and the patient’s trajectory can be monitored.
+- Significant pain level is defined as CPOT > 2, or BPS > 5, or NRS > 3
+- Conduct pain assessments at least 6 times within 24 hours to monitor compliance.
 
-### Mapping to Standard Vocabularies: CPOT
+## Mapping to Standard Vocabularies: CPOT
 
-| Clinical Concept | Concept Values | Standardized Vocabulary: Code / Concept ID | CDM Table |
-|---|---|---|---|
-| CPOT: Muscle Tension Score | 0: Relaxed · 1: Tense/rigid · 2: Very tense/rigid | OMOP Extension (Concept ID: 722052) | Measurement |
-| CPOT: Vocalization Score | 0: No sound · 1: Sighing/moaning · 2: Crying out/groaning | OMOP Extension (Concept ID: 722060) | Measurement |
-| CPOT: Body Movements Score | 0: No movement · 1: Protection · 2: Restlessness | OMOP Extension (Concept ID: 722048) | Measurement |
-| CPOT: Facial Expression Score | 0: Relaxed/neutral · 1: Tense · 2: Grimacing | OMOP Extension (Concept ID: 722044) | Measurement |
-| CPOT: Total Score | Sum across the four CPOT indicators | OMOP Extension (Concept ID: 722043) | Measurement |
+| Clinical Concept | Concept Values | Standardized Vocabulary: Code, Concept ID | CDM Table |
+|------------------|----------------|-------------------------------------------|-----------|
+| CPOT: Muscle Tension Score | 0: Relaxed<br>1: Tense, Rigid<br>2: Very tense or rigid | OMOP Extension:<br>OMOP5214828,<br>ID: 722052 | Measurement |
+| CPOT: Vocalization Score | 0: No sound<br>1: Sighing, moaning<br>2: Crying out, groaning | OMOP Extension:<br>OMOP5214835,<br>ID: 722060 | Measurement |
+| CPOT: Body Movements Score | 0: No movement<br>1: Protection<br>2: Restlessness | OMOP Extension:<br>OMOP5214824,<br>ID: 722048 | Measurement |
+| CPOT: Facial Expression Score | 0: Relaxed, neutral<br>1: Tense<br>2: Grimacing | OMOP Extension:<br>OMOP5214820,<br>ID: 722044 | Measurement |
+| CPOT: Total Score | Sum of scores from each of the four indicators | OMOP Extension:<br>OMOP5214819,<br>ID: 722043 | Measurement |
 
-#### Alternative Pain Assessment Tools
+## Alternative Pain Assessment Tools
 
-| Clinical Concept | Concept Values | Standardized Vocabulary: Code / Concept ID | CDM Table |
-|---|---|---|---|
-| Numeric Pain Rating Scale (NRS) | Rate pain 0–10 | SNOMED CT 1284852002, LOINC 37156127 | Measurement |
-| Behavioral Pain Scale (BPS) | Facial expression, upper-limb movements, mechanical ventilation compliance | SNOMED CT 273310008, OMOP 3399022 | Measurement |
+| Clinical Concept | Concept Values | Standardized Vocabulary: Code, Concept ID | CDM Table |
+|------------------|----------------|-------------------------------------------|-----------|
+| Numeric Pain Rating Scale (NRS) | Rate pain on a scale of 0 to 10 | SNOMED:<br>225398001,<br>ID: 3715127 | Measurement |
+| Behavioral Pain Scale (BPS) | Facial expression, Upper limb movements, and compliance with mechanical ventilation | SNOMED:<br>273313008,<br>ID: 3399022 | Measurement |
 
 </details>
 
