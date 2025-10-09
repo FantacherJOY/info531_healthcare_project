@@ -1,6 +1,4 @@
-<a id="top"></a>
-
-# ICU Liberation Bundle Cards — Quick Links
+# ICU Liberation Bundle Cards
 
 [Bundle Card A - Assess, Prevent, and Manage Pain](#bundle-card-a)  
 [Bundle Card B - Part I: Spontaneous Awakening Trials (SAT)](#bundle-card-b-part-i)  
@@ -14,7 +12,7 @@
 
 <a id="bundle-card-a"></a>
 <details>
-<summary><strong>Bundle Card A - Assess, Prevent, and Manage Pain</strong> <sub><a href="#top">↑ Back to Top</a></sub></summary>
+<summary><strong>Bundle Card A - Assess, Prevent, and Manage Pain</strong></summary>
 
 ### Card Overview
 
