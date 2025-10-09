@@ -1,5 +1,4 @@
-# Table A.1. Bundle Card for Component A in the Liberation Bundle
-
+Bundle Card for Component A in the Liberation Bundle
 ## Card Overview
 
 - **Card Definition:** A - Assessment, Prevention, and Management of Pain.
@@ -19,11 +18,11 @@
 
 | Clinical Concept | Concept Values | Standardized Vocabulary: Code,<br>Concept ID | CDM Table |
 |------------------|----------------|-------------------------------------------|-----------|
-| CPOT: Muscle Tension Score | 0: Relaxed<br>1: Tense, Rigid<br>2: Very tense or rigid | OMOP Extension:<br>OMOP5214828,<br>ID: 722052 | Measurement |
-| CPOT: Vocalization Score | 0: No sound<br>1: Sighing, moaning<br>2: Crying out, groaning | OMOP Extension:<br>OMOP5214835,<br>ID: 722060 | Measurement |
-| CPOT: Body Movements Score | 0: No movement<br>1: Protection<br>2: Restlessness | OMOP Extension:<br>OMOP5214824,<br>ID: 722048 | Measurement |
-| CPOT: Facial Expression Score | 0: Relaxed, neutral<br>1: Tense<br>2: Grimacing | OMOP Extension:<br>OMOP5214820,<br>ID: 722044 | Measurement |
-| CPOT: Total Score | Sum of scores from each of the four indicators | OMOP Extension:<br>OMOP5214819,<br>ID: 722043 | Measurement |
+| CPOT: Muscle Tension Score | 0: Relaxed<br>1: Tense, Rigid<br>2: Very tense or rigid | OMOP Extension:OMOP5214828,<br>ID: 722052 | Measurement |
+| CPOT: Vocalization Score | 0: No sound<br>1: Sighing, moaning<br>2: Crying out, groaning | OMOP Extension:OMOP5214835,<br>ID: 722060 | Measurement |
+| CPOT: Body Movements Score | 0: No movement<br>1: Protection<br>2: Restlessness | OMOP Extension:OMOP5214824,<br>ID: 722048 | Measurement |
+| CPOT: Facial Expression Score | 0: Relaxed, neutral<br>1: Tense<br>2: Grimacing | OMOP Extension:OMOP5214820,<br>ID: 722044 | Measurement |
+| CPOT: Total Score | Sum of scores from each of the four indicators | OMOP Extension:OMOP5214819,ID: 722043 | Measurement |
 
 ## Alternative Pain Assessment Tools
 
@@ -33,7 +32,7 @@
 | Behavioral Pain Scale (BPS) | Facial expression, Upper limb movements, and compliance with mechanical ventilation | SNOMED:<br>273313008,<br>ID: 3399022 | Measurement |
 
 
-# Table A.2. Bundle Card for Component B in the Liberation Bundle - Part I
+Bundle Card for Component B in the Liberation Bundle - Part I
 
 ## Card Overview
 
