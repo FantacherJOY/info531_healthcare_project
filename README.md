@@ -14,9 +14,6 @@
 <details>
 <summary>## <strong>Bundle Card A - Assess, Prevent, and Manage Pain</strong></summary>
 
-<details>
-  <summary><strong>Click to expand / collapse details</strong></summary>
-
 ### Card Overview
 
 - **Card Definition:** A - Assessment, Prevention, and Management of Pain.
