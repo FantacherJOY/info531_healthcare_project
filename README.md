@@ -126,7 +126,7 @@ Document the SAT start and stop times, tolerance, adverse events, and the resume
 ### Mapping to Standard Vocabularies
 | Clinical Concept | Concept Values | Standardized Vocabulary: Code,<br>Concept ID | CDM Table |
 |------------------|----------------|-------------------------------------------|-----------|
-| RASS Score | Ranges: +4 (Combative) to -5 (Unarousable) | OMOP Extension:<br>OMOP50429(54)-(63),<br>ID: 7050(06)-(15) | Measurement |
+| RASS Score | Ranges: +4 (Combative) to -5 (Unarousable) | OMOP Extension: OMOP50429(54)-(63),<br>ID: 7050(06)-(15) | Measurement |
 | Goal RASS Score | Ranges: 0 (Alert and Calm) to -2 (Light sedation). | OMOP Extension: OMOP50429(58)-(60),<br>ID: 7050(09)-(11) | Observation |
 | Sedative Medications | See list below | RxNorm | Drug |
 | Analgesic Medications | See list below | RxNorm | Drug |
@@ -145,7 +145,7 @@ Document the SAT start and stop times, tolerance, adverse events, and the resume
 
 <a id="bundle-card-d"></a>
 <details>
-<summary><strong>Bundle Card D — Delirium: Assess, Prevent, and Manage (CAM-ICU)</strong> <sub><a href="#top">↑ Back to Top</a></sub></summary>
+<summary><strong>Bundle Card D - Delirium: Assess, Prevent, and Manage (CAM-ICU)</strong> <sub><a href="#top">↑ Back to Top</a></sub></summary>
 
 ### Card Overview
 - **Card Definition:** D: Delirium: Assess, Prevent, and Manage
@@ -173,7 +173,7 @@ Document the SAT start and stop times, tolerance, adverse events, and the resume
 
 <a id="bundle-card-e"></a>
 <details>
-<summary><strong>Bundle Card E — Early Mobility and Exercise</strong> <sub><a href="#top">↑ Back to Top</a></sub></summary>
+<summary><strong>Bundle Card E - Early Mobility and Exercise</strong> <sub><a href="#top">↑ Back to Top</a></sub></summary>
 
 ### Card Overview
 - **Card Definition:** E - Early Mobility and Exercise
